@@ -1,9 +1,9 @@
 ﻿using FlatSharp;
 using System;
 
-namespace ApiSix.Plugin.Runner.Sdk.ExtraInfo
+namespace ApiSix.Plugin.Runner.Sdk.A6.ExtraInfo
 {
-    public partial class Info : FlatBufferUnion<Var, ReqBody>
+    public class Info : FlatBufferUnion<Var, ReqBody>
     {
         public enum ItemKind : byte
         {
@@ -11,21 +11,18 @@ namespace ApiSix.Plugin.Runner.Sdk.ExtraInfo
             ReqBody = 2,
         }
 
-
         public ItemKind Kind => (ItemKind)base.Discriminator;
 
         public Info(Var value) : base(value)
         {
-            checked
-            { }
+
         }
 
         public Var Var => base.Item1;
 
         public Info(ReqBody value) : base(value)
         {
-            checked
-            { }
+
         }
 
         public ReqBody ReqBody => base.Item2;
