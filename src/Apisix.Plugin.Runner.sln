@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSix.Plugin.Runner.Core", "ApiSix.Plugin.Runner.Core\ApiSix.Plugin.Runner.Core.csproj", "{EC618082-5770-4EF8-BC90-8779403A9EDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSix.Plugin.Runner.Sdk", "ApiSix.Plugin.Runner.Sdk\ApiSix.Plugin.Runner.Sdk.csproj", "{323B7D42-364B-46B1-92B2-46D78EDAF904}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC618082-5770-4EF8-BC90-8779403A9EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC618082-5770-4EF8-BC90-8779403A9EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC618082-5770-4EF8-BC90-8779403A9EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC618082-5770-4EF8-BC90-8779403A9EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323B7D42-364B-46B1-92B2-46D78EDAF904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323B7D42-364B-46B1-92B2-46D78EDAF904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323B7D42-364B-46B1-92B2-46D78EDAF904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323B7D42-364B-46B1-92B2-46D78EDAF904}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {462D9F6B-CF8F-486C-96D3-89150E5B8061}
+	EndGlobalSection
+EndGlobal
